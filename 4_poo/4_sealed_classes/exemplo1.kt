@@ -17,5 +17,8 @@ fun greetMammal(mammal: Mammal): String {
 }
 
 fun main() {
-    println(greetMammal(Cat("Snowy")))
+    val cat = Cat("Snowy")
+    val human = Human("Felipe", "WR5")
+    println(greetMammal(cat))
+    println(greetMammal(human))
 }
